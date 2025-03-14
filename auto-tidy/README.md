@@ -40,7 +40,7 @@ This Python script automatically organizes downloaded TV show episodes by moving
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/hafiz-yss/automation-scripts.git
+git clone https://github.com/hafiz-yss/automation-scripts/auto-tidy.git
 cd automation-scripts/tv-shows-organizer
 ```
 
