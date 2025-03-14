@@ -1,7 +1,3 @@
-Here’s your improved README with all the **fixes and clarifications** applied. 🚀  
-
----
-
 # **TV Shows Organizer**  
 
 This Python script automatically organizes downloaded TV show episodes by moving them into properly named **season folders** within a target directory.  
