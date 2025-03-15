@@ -1,7 +1,3 @@
-Here’s your improved README with all the **fixes and clarifications** applied. 🚀  
-
----
-
 # **TV Shows Organizer**  
 
 This Python script automatically organizes downloaded TV show episodes by moving them into properly named **season folders** within a target directory.  
@@ -44,8 +40,8 @@ This Python script automatically organizes downloaded TV show episodes by moving
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/hafiz-yss/automation-scripts.git
-cd automation-scripts/tv-shows-organizer
+git clone https://github.com/hafiz-yss/automation-scripts/auto-tidy.git
+cd automation-scripts/tv-shows-organizer/auto-tidy
 ```
 
 ### **2️⃣ Run the Script**  
