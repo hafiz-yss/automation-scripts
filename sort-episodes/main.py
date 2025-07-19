@@ -22,6 +22,7 @@ print(f"Moving files from {downloads_folder} to {target_folder}")
 print("Checking downloaded files...")
 
 normalized_series = normalize_name(series_name)
+pattern = r'\b' + re.escape(normalized_series) + r'\b'
 
 # Scan files in Downloads folder
 if os.path.exists(downloads_folder):
@@ -29,7 +30,7 @@ if os.path.exists(downloads_folder):
         normalized_file = normalize_name(file)
 
         # Better matching, check if series name appears as full word(s)
-        if normalized_series in normalized_file:
+        if re.search(pattern, normalized_file):
             season = detect_season(file)
             print(f"Found: {file} → Season {season or '??'}")
 else:
